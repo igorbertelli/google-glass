@@ -4,51 +4,70 @@
     <meta charset="utf-8"/>
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" type="text/css" href="./_css/estilo.css"/>
-      
+    <link rel="stylesheet" href="/home/igor_bertelli/projetos/google-glass/projeto/_css/specs.css"/>
 </head>
 <script src="/home/igor_bertelli/projetos/google-glass/projeto/javascript/funcoes.js"></script>
 <body>
-<div id="interface">
+    <div id="interface">
 
-    <header id="cabecalho">
-    <hgroup>
-    <h1>Google Glass</h1>
-    <h2>A revolução do Google está chegando</h2>
-    </hgroup>
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-    <img id="icone" src="/home/igor_bertelli/projetos/google-glass/img/glass-oculos-preto-peq.png">
-<nav id="menu">
-<h1>Menu Principal</h1>
-    <ul type="square">
-        <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/home.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="index.html">Home</li></a>
+            <img id="icone" src="/home/igor_bertelli/projetos/google-glass/img/glass-oculos-preto-peq.png"/>
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="square">
+                    <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/home.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="index.html">Home</li></a>
 
-        <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="specs.html">Especificações</li></a>
+                    <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="specs.html">Especificações</li></a>
 
-        <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/fotos.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="fotos.html">Fotos</li></a>
+                    <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/fotos.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="fotos.html">Fotos</li></a>
 
-        <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/multimidia.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="multimidia.html">Multimídia</li></a>
+                    <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/multimidia.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="multimidia.html">Multimídia</li></a>
 
-        <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/icone-contato.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</li></a>
-    </ul>
-</nav>
+                    <li onmouseover="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/icone-contato.png')" onmouseout="mudaFoto('/home/igor_bertelli/projetos/google-glass/img/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</li></a>
+                </ul>
+            </nav>
 
-</header>
+        </header>
 
-Glass > Especificações
-Raio-X no Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h2>por Igor Bertelli </h2>
+                        <h3 class="direita">Atualizado em 01/Junho/2019</h3>
+                    </hgroup>
+                </header>
 
-Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
-[AQUI ENTRA UMA IMAGEM]
+                <section id="conteudo">
+                    <img src="/home/igor_bertelli/projetos/google-glass/img/glass-esquema-marcado.jpg"/ usemap="#meumapa">
+                    <map name="meumapa">
+                        <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+                        <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+                        <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela"/>
+                        <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+                    </map>
+                    <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+                </section>
+            </article>
+        </section>
 
-<footer id="rodape">
-    <p>Copyright &copy; 2013 - by Gustavo Guanabara<br/>
-    <a href="http://facebook.com/cursosemvideo" target="blank">Facebook</a> | 
-    <a href="http://twitter.com/cursosemvideo" target="blank">Twitter</p></a> 
-    </footer>
-</div>
+        <footer id="rodape">
+            <p>Copyright &copy; 2019 - by Igor Bertelli
+            <br/>
+                <a href="https://github.com/igorbertelli" target="blank">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/igorbertelli/" target="blank">LinkedIn</a>
+            </p> 
+        </footer>
+    </div>
 </body>
 </html>
         
